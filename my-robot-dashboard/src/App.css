@@ -1,0 +1,22 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+.status, .activity-log {
+  padding: 20px;
+}
+.activity-log ul {
+  list-style-type: none;
+  padding: 0;
+}
+.activity-log li {
+  margin: 5px 0;
+}
